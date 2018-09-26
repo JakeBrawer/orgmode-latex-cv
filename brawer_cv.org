@@ -1,0 +1,85 @@
+#+OPTIONS: toc:nil H:10 ':t
+
+#+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
+#+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section]{biblatex}
+#+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
+
+#+TITLE: Jake Brawer
+
+* Personal Data
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth} 
+|          <r> |                               |
+|       Ph.D.: | 3rd Year                      |
+|     Website: | http://jakebrawer.vip/        |
+|       Email: | [[mailto:jake.brawer@yale.edu][jake.brawer@yale.edu]]          |
+|      Github: | https://github.com/JakeBrawer |
+
+* Research overview
+** Summary 
+I build *human--robot collaborative systems* that learn through their interactions with people. My research draws upon recent innovations in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and reason in a *transparent* and *robust* way.
+* Education
+** 2016-Current
+   *Ph.D. in Computer Science*
+
+   Yale University, Advisor: Brian Scassellati
+** 2012-2016
+   *B.A. in Cognitive Science; Computer Science minor* 
+
+   Vassar College
+* Research Experience
+** 2016-Current
+   *Robotics Ph.D. student* --Social robotics laboratory, /Yale University/
+   Human--robot collaboration research under the supervision of Professor Brian Scassellati.
+** 2014-2015
+   *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/
+   Designed and programmed a genotype-phenotype mapping scheme for mobile behavior-based robots incorporating sexual reproduction and ontogenetic factors.
+** 2014
+
+
+
+
+
+   *Neuroscience researcher* --Icahn School of Medicine, /Mount Sinai/
+   Conducted fMRI research on resting state networks in macaque monkeys. Acquired skills using fMRI analysis software FSL.
+
+* Teaching Experience
+** Spring 2018
+ *Intelligent Robotics*
+
+ Teaching Assistant
+** Fall 2017
+ *Object Oriented Programming*
+
+ Teaching Assistant
+** Fall 2014, Fall 2015
+ *Perception and Action*
+
+ Teaching Assistant
+* Technical and scientific skills 
+** Research                                       
+Human--robot collaboration, natural language understanding
+** Programming  
+   *Python* (and scientific tools), *C-C++*, *Rust*, *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Continuous integration* (with Travis)
+** ML/AI
+   General machine learning and computer vision techniques
+** Robots
+   Robot operating system (*ROS*), 2+ years experience with *Baxter research robot*
+** System
+   4+ years of daily *Linux* experience
+
+* Grants
+** March 2018 
+   *Bridging the Gap: Bridging the Gap: An NSF Workshop on Conversational Agents and Human--Robot Interaction*\\
+   Justine Cassell, Brian Scassellati, Jake Brawer, Michael Madaio
+
+   /NSF Cyber--Human Systems (CHS), Robust Intelligence, National Robotics Initiative. Award #1829237/
+
+* Service
+** Conference reviews
+   International Conference on Humanoid Robots (*Humanoids*; 2018)\\
+   International Conference on Human--Robot Interaction (*HRI*; 2017)\\
+
+\nocite{*} 
+\printbibliography[keyword=conference,title=Conference proceedings]
+\printbibliography[keyword=journal,title=Journal articles]
