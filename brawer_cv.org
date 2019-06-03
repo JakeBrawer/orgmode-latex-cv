@@ -11,7 +11,7 @@
 #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth} 
 |          <r> |                               |
 |       Ph.D.: | 3rd Year                      |
-|     Website: | http://jakebrawer.vip/        |
+|     Website: | http://jakebrawer.com/     |
 |       Email: | [[mailto:jake.brawer@yale.edu][jake.brawer@yale.edu]]          |
 |      Github: | https://github.com/JakeBrawer |
 
@@ -70,7 +70,7 @@ Human--robot collaboration, natural language understanding
 
 * Grants
 ** March 2018 
-   *Bridging the Gap: Bridging the Gap: An NSF Workshop on Conversational Agents and Human--Robot Interaction*\\
+   *Bridging the Gap: An NSF Workshop on Conversational Agents and Human--Robot Interaction*\\
    Justine Cassell, Brian Scassellati, Jake Brawer, Michael Madaio
 
    /NSF Cyber--Human Systems (CHS), Robust Intelligence, National Robotics Initiative. Award #1829237/
@@ -79,6 +79,13 @@ Human--robot collaboration, natural language understanding
 ** Conference reviews
    International Conference on Humanoid Robots (*Humanoids*; 2018)\\
    International Conference on Human--Robot Interaction (*HRI*; 2017)\\
+** Journal reviews
+   ACM Transactions on Human--Robot Interaction (*THRI*; 2019)\\
+** Students supervised 
+   Acshi Haggenmiller (2016-2017)\\
+   Sarah Widder (2017-Current) \\
+   Tan Zong Xuan (2017-2018)\\
+   Kevin Choi (2018)\\
 
 \nocite{*} 
 \printbibliography[keyword=conference,title=Conference proceedings]
