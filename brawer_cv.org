@@ -1,31 +1,32 @@
 #+OPTIONS: toc:nil H:10 ':t
 
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
-#+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section]{biblatex}
+#+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section, sorting=ydnt]{biblatex}
 #+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
+#  Enforces last name, first name ordering
+#+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
 
 #+TITLE: Jake Brawer
+#+SUBTITLE: Ph.D. candidate / [[http://jakebrawer.com/][website ]] / [[https://github.com/JakeBrawer][github]] / jake.brawer@yale.edu
 
-* Personal Data
-#+ATTR_HTML: :frame void
-#+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth} 
-|          <r> |                               |
-|       Ph.D.: | 3rd Year                      |
-|     Website: | http://jakebrawer.com/     |
-|       Email: | [[mailto:jake.brawer@yale.edu][jake.brawer@yale.edu]]          |
-|      Github: | https://github.com/JakeBrawer |
+# * Personal Data
+# #+ATTR_HTML: :frame void
+# #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth} 
+# |          <r> |                               |
+# |       Ph.D.: | 7th Year                 |
+# |     Website: | http://jakebrawer.com/     |
+# |       Email: | [[mailto:jake.brawer@yale.edu][jake.brawer@yale.edu]]          |
+# |      Github: | https://github.com/JakeBrawer |
 
 * Research overview
 ** Summary 
-I build *human--robot collaborative systems* that learn through their interactions with people. My research draws upon recent innovations in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and reason in a *transparent* and *robust* way.
+I build *human--robot collaborative systems* that learn through their interactions. My research draws upon recent innovations in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and utilize *abstract knowledge* to make social and physical interactions more *naturalistic* and *robust*.
 * Education
 ** 2016-Current
    *Ph.D. in Computer Science*
-
    Yale University, Advisor: Brian Scassellati
 ** 2012-2016
    *B.A. in Cognitive Science; Computer Science minor* 
-
    Vassar College
 * Research Experience
 ** 2016-Current
@@ -33,40 +34,28 @@ I build *human--robot collaborative systems* that learn through their interactio
    Human--robot collaboration research under the supervision of Professor Brian Scassellati.
 ** 2014-2015
    *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/
+\ast Authors contributed equally
    Designed and programmed a genotype-phenotype mapping scheme for mobile behavior-based robots incorporating sexual reproduction and ontogenetic factors.
 ** 2014
-
-
-
-
-
    *Neuroscience researcher* --Icahn School of Medicine, /Mount Sinai/
    Conducted fMRI research on resting state networks in macaque monkeys. Acquired skills using fMRI analysis software FSL.
 
-* Teaching Experience
-** Spring 2018
- *Intelligent Robotics*
 
- Teaching Assistant
-** Fall 2017
- *Object Oriented Programming*
-
- Teaching Assistant
-** Fall 2014, Fall 2015
- *Perception and Action*
-
- Teaching Assistant
+\nocite{*} 
+\printbibliography[keyword=insubmission,title=In progress]
+\printbibliography[keyword=journal,title=Journal articles]
+\ast Authors contributed equally 
+\printbibliography[keyword=conference,title=Conference proceedings]
+   
 * Technical and scientific skills 
-** Research                                       
-Human--robot collaboration, natural language understanding
 ** Programming  
-   *Python* (and scientific tools), *C-C++*, *Rust*, *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Continuous integration* (with Travis)
-** ML/AI
-   General machine learning and computer vision techniques
+   *Python* (and scientific tools), *C-C++*, *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Continuous integration* (with Travis), Docker
+** ML/AI 
+   Scikit-learn, Pytorch, NLTK, ROS
 ** Robots
-   Robot operating system (*ROS*), 2+ years experience with *Baxter research robot*
+   https://github.com/JakeBrawer5+ years experience with *Baxter research robot*, 3+ years experience with *UR5 robot*
 ** System
-   4+ years of daily *Linux* experience
+   8+ years of daily *Linux* experience
 
 * Grants
 ** March 2018 
@@ -75,18 +64,33 @@ Human--robot collaboration, natural language understanding
 
    /NSF Cyber--Human Systems (CHS), Robust Intelligence, National Robotics Initiative. Award #1829237/
 
+* Teaching Experience
+** Spring 2018/2019
+ *Intelligent Robotics*
+
+ Teaching Assistant
+** Fall 2017
+ *Object Oriented Programming*
+
+ Teaching Assistant
+** Fall 2014/2015
+ *Perception and Action*
+
+ Teaching Assistant
+ 
 * Service
 ** Conference reviews
    International Conference on Humanoid Robots (*Humanoids*; 2018)\\
-   International Conference on Human--Robot Interaction (*HRI*; 2017)\\
+   International Conference on Intelligent Robots and Systems (*IROS*; 2020)\\ 
+   International Conference on Human--Robot Interaction (*HRI*; 2017, 2018, 2019, 2020, 2021, 2022)\\
+   International Conference on Robotics and Automation (*ICRA*; 2019)\\
 ** Journal reviews
-   ACM Transactions on Human--Robot Interaction (*THRI*; 2019)\\
+   ACM Transactions on Human--Robot Interaction (*THRI*; 2019, 2020)\\
 ** Students supervised 
-   Acshi Haggenmiller (2016-2017)\\
-   Sarah Widder (2017-Current) \\
-   Tan Zong Xuan (2017-2018)\\
    Kevin Choi (2018)\\
+   Acshi Haggenmiller (2016-2017)\\
+   Sarah Widder (2017-2019) \\
+   Tan Zong Xuan (2017-2018)\\
+   Kayleigh Bishop (2017-2019)\\
+   John Dallard (2021-2022)
 
-\nocite{*} 
-\printbibliography[keyword=conference,title=Conference proceedings]
-\printbibliography[keyword=journal,title=Journal articles]
