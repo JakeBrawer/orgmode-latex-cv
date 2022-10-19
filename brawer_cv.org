@@ -11,7 +11,7 @@
 
 # * Personal Data
 # #+ATTR_HTML: :frame void
-# #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth} 
+# #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
 # |          <r> |                               |
 # |       Ph.D.: | 7th Year                 |
 # |     Website: | http://jakebrawer.com/     |
@@ -19,46 +19,49 @@
 # |      Github: | https://github.com/JakeBrawer |
 
 * Research overview
-** Summary 
-I build *human--robot collaborative systems* that learn through their interactions. My research draws upon recent innovations in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and utilize *abstract knowledge* to make social and physical interactions more *naturalistic* and *robust*.
+** Summary
+I build *human--robot collaborative systems* that learn through their interactions. My research draws upon recent innovations
+in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and utilize
+*abstract knowledge* to make social and physical interactions more *naturalistic* and *robust*.
+
 * Education
 ** 2016-Current
    *Ph.D. in Computer Science*
    Yale University, Advisor: Brian Scassellati
 ** 2012-2016
-   *B.A. in Cognitive Science; Computer Science minor* 
+   *B.A. in Cognitive Science; Computer Science minor*
    Vassar College
 * Research Experience
 ** 2016-Current
-   *Robotics Ph.D. student* --Social robotics laboratory, /Yale University/
+   *Robotics Ph.D. student* --Social robotics laboratory, /Yale University/ \\
    Human--robot collaboration research under the supervision of Professor Brian Scassellati.
 ** 2014-2015
-   *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/
-\ast Authors contributed equally
-   Designed and programmed a genotype-phenotype mapping scheme for mobile behavior-based robots incorporating sexual reproduction and ontogenetic factors.
-** 2014
-   *Neuroscience researcher* --Icahn School of Medicine, /Mount Sinai/
-   Conducted fMRI research on resting state networks in macaque monkeys. Acquired skills using fMRI analysis software FSL.
+   *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/ \\ 
+   Designed and programmed a genotype-phenotype mapping scheme for mobile\\
+   behavior-based robots incorporating sexual reproduction and ontogenetic factors.
+# ** 2014
+#    *Neuroscience researcher* --Icahn School of Medicine, /Mount Sinai/
+#    Conducted fMRI research on resting state networks in macaque monkeys. Acquired skills using fMRI analysis software FSL.
 
 
-\nocite{*} 
+\nocite{*}
 \printbibliography[keyword=insubmission,title=In progress]
 \printbibliography[keyword=journal,title=Journal articles]
-\ast Authors contributed equally 
+\ast Authors contributed equally
 \printbibliography[keyword=conference,title=Conference proceedings]
-   
-* Technical and scientific skills 
-** Programming  
+
+* Technical and scientific skills
+** Programming
    *Python* (and scientific tools), *C-C++*, *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Continuous integration* (with Travis), Docker
-** ML/AI 
+** ML/AI Tools
    Scikit-learn, Pytorch, NLTK, ROS
 ** Robots
-   https://github.com/JakeBrawer5+ years experience with *Baxter research robot*, 3+ years experience with *UR5 robot*
+   6+ years experience with *Baxter research robot*, 3+ years experience with *UR5 robot*
 ** System
    8+ years of daily *Linux* experience
 
 * Grants
-** March 2018 
+** March 2018
    *Bridging the Gap: An NSF Workshop on Conversational Agents and Human--Robot Interaction*\\
    Justine Cassell, Brian Scassellati, Jake Brawer, Michael Madaio
 
@@ -77,20 +80,19 @@ I build *human--robot collaborative systems* that learn through their interactio
  *Perception and Action*
 
  Teaching Assistant
- 
+
 * Service
 ** Conference reviews
    International Conference on Humanoid Robots (*Humanoids*; 2018)\\
-   International Conference on Intelligent Robots and Systems (*IROS*; 2020)\\ 
-   International Conference on Human--Robot Interaction (*HRI*; 2017, 2018, 2019, 2020, 2021, 2022)\\
+   International Conference on Intelligent Robots and Systems (*IROS*; 2020)\\
+   International Conference on Human--Robot Interaction (*HRI*; 2017, 2018, 2019, 2020, 2021, 2022, 2023)\\
    International Conference on Robotics and Automation (*ICRA*; 2019)\\
 ** Journal reviews
    ACM Transactions on Human--Robot Interaction (*THRI*; 2019, 2020)\\
-** Students supervised 
+** Students supervised
    Kevin Choi (2018)\\
    Acshi Haggenmiller (2016-2017)\\
    Sarah Widder (2017-2019) \\
    Tan Zong Xuan (2017-2018)\\
    Kayleigh Bishop (2017-2019)\\
    John Dallard (2021-2022)
-
