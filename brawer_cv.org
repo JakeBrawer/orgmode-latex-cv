@@ -1,13 +1,15 @@
+
 #+OPTIONS: toc:nil H:10 ':t
 
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
 #+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section, sorting=ydnt]{biblatex}
 #+LATEX_HEADER: \addbibresource{~/Dropbox/Literature/references.bib}
 #  Enforces last name, first name ordering
-#+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
+#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
 
 #+TITLE: Jake Brawer, Ph.D.
-#+SUBTITLE: roboticist  / [[http://jakebrawer.com/][website ]] / [[https://github.com/JakeBrawer][github]] / jake.brawer@colorado.edu
+#+SUBTITLE: [[http://jakebrawer.com/][website]] / [[https://github.com/JakeBrawer][github]] / jake.brawer@colorado.edu / [[http://www.linkedin.com/in/jake-brawer-947233232][linkedin]]
+
 
 # * Personal Data
 # #+ATTR_HTML: :frame void
@@ -18,29 +20,34 @@
 # |       Email: | [[mailto:jake.brawer@yale.edu][jake.brawer@yale.edu]]          |
 # |      Github: | https://github.com/JakeBrawer |
 
-* Research overview
+* RESEARCH OVERVIEW
 ** Summary
-I build *human--robot collaborative systems* that learn through their interactions. My research draws upon recent innovations
-in machine learning as well as foundational techniques in artificial intelligence for designing systems that learn and utilize
-*abstract knowledge* to make social and physical interactions more *naturalistic* and *robust*.
+I develop *collaborative AI systems* that integrate perception, reasoning, and learning to support seamless human–robot interaction.   My research combines advances in machine learning with foundational ideas from artificial intelligence and cognitive science to develop agents that use *structured, abstract knowledge* to make social and physical interactions more *robust, transparent, and natural*.
 
-* Education
+* PROFESSIONAL EXPERIENCE
 ** 2023-Current
-   *Postdoctoral Researcher*
-   University of Colorado, Boulder, \\
-   Advisors: Alessandro Roncone and Bradley Hayes
+   *Postdoctoral Researcher*\\
+   /University of Colorado, Boulder,/
+   Advisors: Alessandro Roncone and Bradley Hayes\\
+   Leading project on human–robot teaming, assistive robotics, and decision support.
+** Spring 2024
+   *Lecturer, Advanced Robotics* (CSCI 4302/5302) \\
+   /University of Colorado, Boulder/\\
+   Sole lecturer for graduate-level robotics course covering motion planning, SLAM, optimization, and reinforcement learning.
+
+* EDUCATION
 ** 2016-2023
    *Ph.D. in Computer Science*
-   Yale University, Advisor: Brian Scassellati
+   /Yale University/, Advisor: Brian Scassellati
 ** 2012-2016
    *B.A. in Cognitive Science; Computer Science minor*
-   Vassar College
+   /Vassar College/
 # * Research Experience
 # ** 2016-2023
 #    *Robotics Ph.D. student* --Social robotics laboratory, /Yale University/ \\
 #    Human--robot collaboration research under the supervision of Professor Brian Scassellati.
 # ** 2014-2015
-#    *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/ \\ 
+#    *Research Fellow* --Interdisciplinary robotics research lab, /Vassar College/ \\
 #    Designed and programmed a genotype-phenotype mapping scheme for mobile\\
 #    behavior-based robots incorporating sexual reproduction and ontogenetic factors.
 # ** 2014
@@ -48,29 +55,35 @@ in machine learning as well as foundational techniques in artificial intelligenc
 #    Conducted fMRI research on resting state networks in macaque monkeys. Acquired skills using fMRI analysis software FSL.
 
 
+* SKILLS
+** Programming
+   *Python* , *C-C++*, *C#,* *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Docker*, *Unity*
+** ML/AI/CV Tools
+   *Scikit-learn*, *SciPy*, *Pytorch*, *numpy*, *pandas*, *matplotlib*, *NLTK*, *ROS*, *Gazebo*, *RViz*, *Gurobi*, *Prolog*, *PDDL*, *OpenCV*, *Open3D*
+** Robots and Sensors
+   *Baxter*, *Sawyer*, *UR5*, *Kinect*, *RealSense*, *RGB-D* cameras \\
+** System
+   10+ years of daily *Linux* experience
+** Soft Skills
+  *Strong communicator*, *Loves collaboration*, *Fast learner*, *Leadership*
+
+
 \nocite{*}
-# \printbibliography[keyword=insubmission,title=In progress]
 \printbibliography[keyword=journal,title=Journal articles]
 # \ast Authors contributed equally
 \printbibliography[keyword=conference,title=Conference proceedings]
 \printbibliography[keyword=workshop,title=Workshop proceedings]
-
-* Technical and scientific skills
-** Programming
-   *Python* (and scientific tools), *C-C++*, *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Continuous integration* (with Travis), Docker
-** ML/AI Tools
-   Scikit-learn, Pytorch, NLTK, ROS, Gurobi
-** Robots
-   6+ years experience with *Baxter research robot*, 3+ years experience with *UR5 robot*
-** System
-   8+ years of daily *Linux* experience
+\printbibliography[keyword=insubmission,title=In progress]
 
 
-* Awards and Fellowships
-** July 2023
- *Army Educational Outreach Program (AEOP) Fellow*
+* AWARDS AND FELLOWSHIPS
+** July 2023, 2024, 2025
+*Army Educational Outreach Program (AEOP) Fellowship*, University of Colorado Boulder — awarded in 2023, 2024, and 2025 to support postdoctoral research.
+** March 2023
+*Best paper (technical track):* Our paper "Interactive Policy Shaping for Human-Robot Collaboration" won the best paper award in the technical track at the 2023 International Conference on Human-Robot Interaction (HRI 2023).
 
-* Workshops
+
+* WORKSHOPS ORGANIZED
 ** March 2023
    *Human-Machine Teaming Paradigm Workshop*\\
    Jake Brawer, Bradley Hayes, Alessandro Roncone
@@ -80,37 +93,41 @@ in machine learning as well as foundational techniques in artificial intelligenc
 
    /NSF Cyber--Human Systems (CHS), Robust Intelligence, National Robotics Initiative. Award #1829237/
 
-* Teaching Experience
-** Spring 2024
- *Advacned Robotics*
+* ADDITIONAL TEACHING EXPERIENCE
 
- Lecturer
 ** Spring 2018/2019
  *Intelligent Robotics*
 
- Teaching Assistant
+ /Teaching Assistant/
 ** Fall 2017
  *Object Oriented Programming*
 
- Teaching Assistant
+ /Teaching Assistant/
 ** Fall 2014/2015
  *Perception and Action*
 
- Teaching Assistant
+ /Teaching Assistant/
 
-* Service
-** Conference reviews
-   International Conference on Humanoid Robots (*Humanoids*; 2018)\\
-   International Conference on Intelligent Robots and Systems (*IROS*; 2020)\\
-   International Conference on Human--Robot Interaction (*HRI*; 2017, 2018, 2019, 2020, 2021, 2022, 2023)\\
-   International Conference on Robotics and Automation (*ICRA*; 2019)\\
-** Journal reviews
-   IEEE Transaction on Robotics (*T-RO*; 2024)\\
-   ACM Transactions on Human--Robot Interaction (*THRI*; 2019, 2020)\\
-** Students supervised
-   Kevin Choi (2018)\\
-   Acshi Haggenmiller (2016-2017)\\
-   Sarah Widder (2017-2019) \\
-   Tan Zong Xuan (2017-2018)\\
-   Kaleb Bishop (2017-2019, 2023)\\
-   John Dallard (2021-2022)
+* SERVICE
+** Leadership
+   Area Chair, International Conference on Human–Agent Interaction (*HAI*; 2024)
+** Conference Reviews
+   *RSS* (2025 — *Outstanding Reviewer Award*),  
+   *HRI* (2017–2025 — *Outstanding Review Mention 2023*),  
+   *IROS* (2020), *ICRA* (2019), *Humanoids* (2018)
+** Journal Reviews
+   *IJRR* (2024), *T-RO* (2024), *THRI* (2019–2025)\\
+   
+** Student Supervision
+   Shivendra Agrawal (2024–2025)  
+   Ava Abderezaei (2024–2025)  
+   Gyaning Kumar (2025)  
+   Yi-Shiuan Huang (2025)  
+   Chi-Hui Lin (2024–2025)  
+   Aaquib Tabrez (2023–2024)  
+   Kaleb Bishop (2017–2019, 2023)  
+   John Dallard (2021–2022)  
+   Sarah Widder (2017–2019)  
+   Kevin Choi (2018)  
+   Acshi Haggenmiller (2016–2017)  
+   Tan Zong Xuan (2017–2018)
