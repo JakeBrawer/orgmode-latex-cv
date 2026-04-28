@@ -25,32 +25,29 @@
 I build *interactive AI systems* that combine perception, reasoning, memory, and learning to support robust human-centered interaction. My work spans *robotics*, *conversational AI*, and *production ML systems*, with emphasis on realtime decision-making, structured knowledge, personalization, and deployable architectures.
 
 * PROFESSIONAL EXPERIENCE
-** Nov 2025-Current
-   *Founding AI/ML Engineer*\\
-   /Stealth startup (voice AI / digital health)/\\
+** *Founding AI/ML Engineer*
+   /Stealth startup (voice AI / digital health)/ \hfill Nov 2025--Current\\
    Sole architect and founding engineer for an early-stage phone-based conversational AI platform for older adults.\\
    Built the end-to-end system across telephony, realtime speech, LLM orchestration, long-term memory, FastAPI services, PostgreSQL, and AWS infrastructure.\\
    Implemented platform safeguards for reliability and HIPAA-oriented handling of sensitive user data.
    # Built an end-to-end realtime system for adaptive dialogue, long-term memory, backend services, and cloud deployment.\\
-** 2023-2025
-   *Postdoctoral Researcher*\\
-   /University of Colorado, Boulder,/\\
+** *Postdoctoral Researcher*
+   /University of Colorado, Boulder,/ \hfill 2023--2025\\
    Advisors: Alessandro Roncone and Bradley Hayes\\
    Lead research on human–robot teaming, assistive robotics, and AI decision support.\\
    Develop models for inferring human proficiency, trust, and intent from gaze and behavior in collaborative environments.\\
    Build semantic robot perception systems for robust localization in cluttered indoor workspaces using low-cost visual-inertial sensing.
-** Spring 2024
-   *Lecturer, Advanced Robotics* (CSCI 4302/5302) \\
-   /University of Colorado, Boulder/\\
+** *Lecturer, Advanced Robotics*
+   /University of Colorado, Boulder/ \hfill Spring 2024\\
    Sole lecturer for a graduate-level robotics course covering motion planning, SLAM, optimization, and reinforcement learning.
 
 * EDUCATION
-** 2016-2023
-   *Ph.D. in Computer Science*
-   /Yale University/, Advisor: Brian Scassellati
-** 2012-2016
-   *B.A. in Cognitive Science; Computer Science minor*
-   /Vassar College/
+** Yale University
+   *Ph.D. in Computer Science* \hfill 2016--2023\\
+   Advisor: Brian Scassellati
+** Vassar College
+   *B.A. in Cognitive Science; Computer Science minor* \hfill 2012--2016
+\vspace{1em}
 # * Research Experience
 # ** 2016-2023
 #    *Robotics Ph.D. student* --Social robotics laboratory, /Yale University/ \\
@@ -66,78 +63,38 @@ I build *interactive AI systems* that combine perception, reasoning, memory, and
 
 * SKILLS
 ** Languages and Systems
-   *Python*, *C/C++*, *C#*, *SQL*, *Git*, *Emacs*, *Docker*, *Linux*, *\LaTeX* \\
+   Python, C/C++, C#, SQL, Git, Emacs, Docker, Linux, \LaTeX \\
 ** AI / ML
-   *PyTorch*, *scikit-learn*, *SciPy*, *NumPy*, *Pandas*, *LangChain*, *LLM orchestration*, *RAG / vector retrieval*, *PGVector*, *matplotlib*, *NLTK*, *Gurobi*, *Prolog*, *PDDL*
+   PyTorch, scikit-learn, SciPy, NumPy, Pandas, LangChain, LLM orchestration, RAG / vector retrieval, PGVector, matplotlib, NLTK, Gurobi, Prolog, PDDL
 ** Backend
-   *FastAPI*, *PostgreSQL*, *AWS*, *async Python*, *REST APIs*, *system design*, *deployment*, *load testing*, *observability*, *HIPAA-oriented system design*, *PHI-safe logging*
+   FastAPI, PostgreSQL, AWS, async Python, REST APIs, system design, deployment, load testing, observability, HIPAA-oriented system design, PHI-safe logging
 ** Voice AI
-   *Pipecat*, *Deepgram*, *AWS Bedrock*, *Telnyx*, *Cartesia*
+   Pipecat, Deepgram, AWS Bedrock, Telnyx, Cartesia
 ** Robotics and CV
-   *ROS*, *Gazebo*, *RViz*, *OpenCV*, *Open3D*, *Baxter*, *Sawyer*, *UR5*, *Kinect*, *RealSense*, *RGB-D* cameras
+   ROS, Gazebo, RViz, OpenCV, Open3D, Baxter, Sawyer, UR5, Kinect, RealSense, RGB-D cameras
 ** Soft Skills
-  *Clear technical communication*, *Collaborative*, *Fast learner*, *Leadership*
+  Clear technical communication, Collaborative, Fast learner, Leadership
 
 
 \nocite{*}
-\printbibliography[keyword=journal,title=Journal articles]
 # \ast Authors contributed equally
-\printbibliography[keyword=conference,title=Conference proceedings]
-\printbibliography[keyword=workshop,title=Workshop proceedings]
+# \printbibliography[keyword=journal,title=Journal articles]
+# \printbibliography[keyword=conference,title=Conference proceedings]
+# \printbibliography[keyword=workshop,title=Workshop proceedings]
+# \printbibliography[keyword=insubmission,title=In progress]
+\printbibliography[keyword=selected,title=Selected publications]
 
 
-* AWARDS AND FELLOWSHIPS
-** July 2023, 2024, 2025
-*Army Educational Outreach Program (AEOP) Fellowship*, University of Colorado Boulder — awarded in 2023, 2024, and 2025 to support postdoctoral research.
-** March 2023
-*Best paper (technical track):* Our paper "Interactive Policy Shaping for Human-Robot Collaboration" won the best paper award in the technical track at the 2023 International Conference on Human-Robot Interaction (HRI 2023).
-
-
-* WORKSHOPS ORGANIZED
-** March 2023
-   *Human-Machine Teaming Paradigm Workshop*\\
-   Jake Brawer, Bradley Hayes, Alessandro Roncone
-** March 2018
-   *Bridging the Gap: An NSF Workshop on Conversational Agents and Human-Robot Interaction*\\
-   Justine Cassell, Brian Scassellati, Jake Brawer, Michael Madaio
-
-   /NSF Cyber--Human Systems (CHS), Robust Intelligence, National Robotics Initiative. Award #1829237/
-
-* ADDITIONAL TEACHING EXPERIENCE
-
-** Spring 2018/2019
- *Intelligent Robotics*
-
- /Teaching Assistant/
-** Fall 2017
- *Object Oriented Programming*
-
- /Teaching Assistant/
-** Fall 2014/2015
- *Perception and Action*
-
- /Teaching Assistant/
-
-* SERVICE
-** Leadership
-   Area Chair, International Conference on Human–Agent Interaction (*HAI*; 2024)
-** Conference Reviews
-   *RSS* (2025 — *Outstanding Reviewer Award*),  
-   *HRI* (2017–2025 — *Outstanding Review Mention 2023*),  
-   *IROS* (2020), *ICRA* (2019), *Humanoids* (2018)
-** Journal Reviews
-   *IJRR* (2024), *T-RO* (2024), *THRI* (2019–2025)\\
-   
-** Student Supervision
-   Shivendra Agrawal (2024–2025)  
-   Ava Abderezaei (2024–2025)  
-   Gyaning Kumar (2025)  
-   Yi-Shiuan Huang (2025)  
-   Chi-Hui Lin (2024–2025)  
-   Aaquib Tabrez (2023–2024)  
-   Kaleb Bishop (2017–2019, 2023)  
-   John Dallard (2021–2022)  
-   Sarah Widder (2017–2019)  
-   Kevin Choi (2018)  
-   Acshi Haggenmiller (2016–2017)  
-   Tan Zong Xuan (2017–2018)
+* AWARDS AND SERVICE
+** 2025
+   *Outstanding Reviewer Award*, Robotics: Science and Systems (*RSS*)
+** 2023, 2024, 2025
+   *Army Educational Outreach Program (AEOP) Fellowship*, University of Colorado Boulder
+** 2024
+   Area Chair, International Conference on Human–Agent Interaction (*HAI*)
+** 2023
+   *Best paper (technical track)*, ACM/IEEE International Conference on Human-Robot Interaction (*HRI*) for "Interactive Policy Shaping for Human-Robot Collaboration"
+** Workshops
+   Co-organized the Human-Machine Teaming Paradigm Workshop (2023) and Bridging the Gap: An NSF Workshop on Conversational Agents and Human-Robot Interaction (2018).
+** Service
+   Reviewer for *RSS*, *HRI*, *IROS*, *ICRA*, *Humanoids*, *IJRR*, *T-RO*, and *THRI*; mentored undergraduate and graduate researchers on robotics, HRI, and assistive AI projects.
