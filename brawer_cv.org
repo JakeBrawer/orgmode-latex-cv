@@ -3,12 +3,12 @@
 
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
 #+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section, sorting=ydnt]{biblatex}
-#+LATEX_HEADER: \addbibresource{~/Dropbox/Literature/references.bib}
+#+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
 #  Enforces last name, first name ordering
 #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
 
 #+TITLE: Jake Brawer, Ph.D.
-#+SUBTITLE: [[http://jakebrawer.com/][website]] / [[https://github.com/JakeBrawer][github]] / jake.brawer@colorado.edu / [[http://www.linkedin.com/in/jake-brawer-947233232][linkedin]]
+#+SUBTITLE: [[http://jakebrawer.com/][website]] / [[https://github.com/JakeBrawer][github]] / [[mailto:careers.swagger755@passmail.net][email]] / [[http://www.linkedin.com/in/jake-brawer-947233232][linkedin]]
 
 
 # * Personal Data
@@ -22,18 +22,27 @@
 
 * RESEARCH OVERVIEW
 ** Summary
-I develop *collaborative AI systems* that integrate perception, reasoning, and learning to support seamless human–robot interaction.   My research combines advances in machine learning with foundational ideas from artificial intelligence and cognitive science to develop agents that use *structured, abstract knowledge* to make social and physical interactions more *robust, transparent, and natural*.
+I build *interactive AI systems* that combine perception, reasoning, memory, and learning to support robust human-centered interaction. My work spans *robotics*, *conversational AI*, and *production ML systems*, with emphasis on realtime decision-making, structured knowledge, personalization, and deployable architectures.
 
 * PROFESSIONAL EXPERIENCE
-** 2023-Current
+** Nov 2025-Current
+   *Founding AI/ML Engineer*\\
+   /Stealth startup (voice AI / digital health)/\\
+   Sole architect and founding engineer for an early-stage phone-based conversational AI platform for older adults.\\
+   Built the end-to-end system across telephony, realtime speech, LLM orchestration, long-term memory, FastAPI services, PostgreSQL, and AWS infrastructure.\\
+   Implemented platform safeguards for reliability and HIPAA-oriented handling of sensitive user data.
+   # Built an end-to-end realtime system for adaptive dialogue, long-term memory, backend services, and cloud deployment.\\
+** 2023-2025
    *Postdoctoral Researcher*\\
-   /University of Colorado, Boulder,/
+   /University of Colorado, Boulder,/\\
    Advisors: Alessandro Roncone and Bradley Hayes\\
-   Leading project on human–robot teaming, assistive robotics, and decision support.
+   Lead research on human–robot teaming, assistive robotics, and AI decision support.\\
+   Develop models for inferring human proficiency, trust, and intent from gaze and behavior in collaborative environments.\\
+   Build semantic robot perception systems for robust localization in cluttered indoor workspaces using low-cost visual-inertial sensing.
 ** Spring 2024
    *Lecturer, Advanced Robotics* (CSCI 4302/5302) \\
    /University of Colorado, Boulder/\\
-   Sole lecturer for graduate-level robotics course covering motion planning, SLAM, optimization, and reinforcement learning.
+   Sole lecturer for a graduate-level robotics course covering motion planning, SLAM, optimization, and reinforcement learning.
 
 * EDUCATION
 ** 2016-2023
@@ -56,16 +65,18 @@ I develop *collaborative AI systems* that integrate perception, reasoning, and l
 
 
 * SKILLS
-** Programming
-   *Python* , *C-C++*, *C#,* *\LaTeX*, *Git*, *Jekyll*, *Emacs*, *Docker*, *Unity*
-** ML/AI/CV Tools
-   *Scikit-learn*, *SciPy*, *Pytorch*, *numpy*, *pandas*, *matplotlib*, *NLTK*, *ROS*, *Gazebo*, *RViz*, *Gurobi*, *Prolog*, *PDDL*, *OpenCV*, *Open3D*
-** Robots and Sensors
-   *Baxter*, *Sawyer*, *UR5*, *Kinect*, *RealSense*, *RGB-D* cameras \\
-** System
-   10+ years of daily *Linux* experience
+** Languages and Systems
+   *Python*, *C/C++*, *C#*, *SQL*, *Git*, *Emacs*, *Docker*, *Linux*, *\LaTeX* \\
+** AI / ML
+   *PyTorch*, *scikit-learn*, *SciPy*, *NumPy*, *Pandas*, *LangChain*, *LLM orchestration*, *RAG / vector retrieval*, *PGVector*, *matplotlib*, *NLTK*, *Gurobi*, *Prolog*, *PDDL*
+** Backend
+   *FastAPI*, *PostgreSQL*, *AWS*, *async Python*, *REST APIs*, *system design*, *deployment*, *load testing*, *observability*, *HIPAA-oriented system design*, *PHI-safe logging*
+** Voice AI
+   *Pipecat*, *Deepgram*, *AWS Bedrock*, *Telnyx*, *Cartesia*
+** Robotics and CV
+   *ROS*, *Gazebo*, *RViz*, *OpenCV*, *Open3D*, *Baxter*, *Sawyer*, *UR5*, *Kinect*, *RealSense*, *RGB-D* cameras
 ** Soft Skills
-  *Strong communicator*, *Loves collaboration*, *Fast learner*, *Leadership*
+  *Clear technical communication*, *Collaborative*, *Fast learner*, *Leadership*
 
 
 \nocite{*}
@@ -73,7 +84,6 @@ I develop *collaborative AI systems* that integrate perception, reasoning, and l
 # \ast Authors contributed equally
 \printbibliography[keyword=conference,title=Conference proceedings]
 \printbibliography[keyword=workshop,title=Workshop proceedings]
-\printbibliography[keyword=insubmission,title=In progress]
 
 
 * AWARDS AND FELLOWSHIPS
