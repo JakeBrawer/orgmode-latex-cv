@@ -1,3 +1,12 @@
 *~
 *.html
 *.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+.codex
+.pdf-view-restore

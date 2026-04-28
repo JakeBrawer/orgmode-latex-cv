@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ATS-oriented LaTeX style for the org-mode CV.
+%
+% This keeps the same Org source readable by humans while avoiding the
+% left-margin subsection layout used in the visual CV.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesPackage{fa_orgmode_cv_ats}
+
+\usepackage{url}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage{hyperref}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\pagestyle{empty}
+\setlist{nosep,leftmargin=*}
+\sloppy
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\renewcommand*{\maketitle}{%
+  {
+     \centering{\LARGE \@title}\\[0.25in]
+  }
+}
+
+\titleformat{\section}
+            {\large\bfseries\raggedright}
+            {}
+            {0pt}
+            {}
+            [\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\titleformat{\subsection}
+            {\normalsize\bfseries\raggedright}
+            {}
+            {0pt}
+            {}
+            []
+\titlespacing{\subsection}{0pt}{6pt}{2pt}

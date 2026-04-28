@@ -25,27 +25,27 @@
 I build *interactive AI systems* that combine perception, reasoning, memory, and learning to support robust human-centered interaction. My work spans *robotics*, *conversational AI*, and *production ML systems*, with emphasis on realtime decision-making, structured knowledge, personalization, and deployable architectures.
 
 * PROFESSIONAL EXPERIENCE
-** *Founding AI/ML Engineer*
+** *Founding Engineer*
    /Stealth startup (voice AI / digital health)/ \hfill Nov 2025--Current\\
    Sole architect and founding engineer for an early-stage phone-based conversational AI platform for older adults.\\
    Built the end-to-end system across telephony, realtime speech, LLM orchestration, long-term memory, FastAPI services, PostgreSQL, and AWS infrastructure.\\
    Implemented platform safeguards for reliability and HIPAA-oriented handling of sensitive user data.
    # Built an end-to-end realtime system for adaptive dialogue, long-term memory, backend services, and cloud deployment.\\
-** *Postdoctoral Researcher*
+** *Postdoc*
    /University of Colorado, Boulder,/ \hfill 2023--2025\\
    Advisors: Alessandro Roncone and Bradley Hayes\\
    Lead research on human–robot teaming, assistive robotics, and AI decision support.\\
    Develop models for inferring human proficiency, trust, and intent from gaze and behavior in collaborative environments.\\
    Build semantic robot perception systems for robust localization in cluttered indoor workspaces using low-cost visual-inertial sensing.
-** *Lecturer, Advanced Robotics*
+** *Lecturer*
    /University of Colorado, Boulder/ \hfill Spring 2024\\
-   Sole lecturer for a graduate-level robotics course covering motion planning, SLAM, optimization, and reinforcement learning.
+   Sole lecturer for Advanced Robotics (CSCI 4302/5302), a graduate-level course covering motion planning, SLAM, optimization, and reinforcement learning.
 
 * EDUCATION
-** Yale University
+** Yale
    *Ph.D. in Computer Science* \hfill 2016--2023\\
    Advisor: Brian Scassellati
-** Vassar College
+** Vassar
    *B.A. in Cognitive Science; Computer Science minor* \hfill 2012--2016
 \vspace{1em}
 # * Research Experience
@@ -62,7 +62,7 @@ I build *interactive AI systems* that combine perception, reasoning, memory, and
 
 
 * SKILLS
-** Languages and Systems
+** Languages
    Python, C/C++, C#, SQL, Git, Emacs, Docker, Linux, \LaTeX \\
 ** AI / ML
    PyTorch, scikit-learn, SciPy, NumPy, Pandas, LangChain, LLM orchestration, RAG / vector retrieval, PGVector, matplotlib, NLTK, Gurobi, Prolog, PDDL
@@ -70,7 +70,7 @@ I build *interactive AI systems* that combine perception, reasoning, memory, and
    FastAPI, PostgreSQL, AWS, async Python, REST APIs, system design, deployment, load testing, observability, HIPAA-oriented system design, PHI-safe logging
 ** Voice AI
    Pipecat, Deepgram, AWS Bedrock, Telnyx, Cartesia
-** Robotics and CV
+** Robotics/CV
    ROS, Gazebo, RViz, OpenCV, Open3D, Baxter, Sawyer, UR5, Kinect, RealSense, RGB-D cameras
 ** Soft Skills
   Clear technical communication, Collaborative, Fast learner, Leadership
@@ -88,7 +88,7 @@ I build *interactive AI systems* that combine perception, reasoning, memory, and
 * AWARDS AND SERVICE
 ** 2025
    *Outstanding Reviewer Award*, Robotics: Science and Systems (*RSS*)
-** 2023, 2024, 2025
+** 2023-2025
    *Army Educational Outreach Program (AEOP) Fellowship*, University of Colorado Boulder
 ** 2024
    Area Chair, International Conference on Human–Agent Interaction (*HAI*)

@@ -1,6 +1,75 @@
-A simple LaTeX resume template for org-mode.  License under CC
-BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+* Org-mode LaTeX CV
 
-**** Reference
-     - https://github.com/punchagan/resume
-     - http://www.latextemplates.com/template/plasmati-graduate-cv
+This repo keeps one canonical Org-mode CV source and builds two PDF variants:
+
+- =Jake_Brawer_CV_human.pdf=: the visual/human-facing CV using the left-margin layout in =fa_orgmode_cv.sty=.
+- =Jake_Brawer_CV_ATS.pdf=: a simpler one-column CV using =fa_orgmode_cv_ats.sty= for better text extraction and applicant tracking systems.
+
+The source of truth is =brawer_cv.org=. Avoid editing generated =.tex= files directly.
+
+* Building
+
+Run:
+
+#+begin_src sh
+./build_cvs.sh
+#+end_src
+
+The script:
+
+1. Exports =brawer_cv.org= to LaTeX with Emacs/Org mode.
+2. Copies the generated LaTeX into two named variants.
+3. Keeps the human variant on =fa_orgmode_cv.sty=.
+4. Rewrites the ATS variant to use =fa_orgmode_cv_ats.sty=.
+5. Runs the BibLaTeX cycle for each variant:
+6. Copies the human-facing PDF to the website repo as =/home/jake/src/jakebrawer.github.io/assets/pdfs/brawer_cv.pdf=.
+
+#+begin_src sh
+pdflatex
+biber
+pdflatex
+pdflatex
+#+end_src
+
+* Which PDF To Use
+
+Use =Jake_Brawer_CV_human.pdf= when a person is likely to read the document directly, such as referrals, email introductions, research labs, robotics groups, and academic-adjacent industry roles.
+
+Use =Jake_Brawer_CV_ATS.pdf= for large-company job portals and applicant tracking systems. It avoids the left-margin/two-column subsection layout, which makes text extraction more linear.
+
+The website's =CV= link points at =assets/pdfs/brawer_cv.pdf=. The build script updates that file with the human-facing version by default. To copy somewhere else for a one-off build, set:
+
+#+begin_src sh
+WEBSITE_CV_PATH=/path/to/brawer_cv.pdf ./build_cvs.sh
+#+end_src
+
+* Dependencies
+
+The build expects:
+
+- Emacs with Org mode and =ox-latex=
+- =pdflatex=
+- =biber=
+- the LaTeX packages used by the style files, including =biblatex= and =ulem=
+
+On Arch Linux, =ulem.sty= is provided by =texlive-plaingeneric=.
+
+* Bibliography
+
+The CV uses BibLaTeX and a bibliography file referenced from =brawer_cv.org=:
+
+#+begin_src org
+#+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
+#+end_src
+
+The active publication section currently prints only entries tagged with:
+
+#+begin_src bibtex
+keywords = {selected}
+#+end_src
+
+To include an entry while preserving other categories, use comma-separated keywords:
+
+#+begin_src bibtex
+keywords = {journal, selected}
+#+end_src
