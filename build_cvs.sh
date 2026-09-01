@@ -53,10 +53,16 @@ sed -i -E 's/([0-9]{4}) ?-- ?Current/\1 - Present/' "${ATS_BASE}.tex"
 sed -i -E 's/([0-9]{4}) ?-- ?([A-Za-z0-9])/\1 - \2/g' "${ATS_BASE}.tex"
 
 # ATS-only rewrites so the extracted text is what parsers expect:
-# 1. Contact links become literal text (ATS parsers don't read link
-#    annotations, so "email"/"linkedin" alone hides the actual address),
-#    and the cell number is appended after the email.
-sed -i -E 's/\\href\{mailto:([^}]+)\}\{[^}]+\}/\1 \/ 917-608-3204/g' "${ATS_BASE}.tex"
+# 1. Contact links become labeled literal text (ATS parsers don't read
+#    link annotations, so "email"/"linkedin" alone hides the address).
+#    The phone number rides along with the email; " | " separates fields.
+sed -i -E 's/\\href\{mailto:([^}]+)\}\{email\}/Email: \1 \| Phone: 917-608-3204/' "${ATS_BASE}.tex"
+sed -i -E 's/\\href\{([^}]+)\}\{website\}/Website: \\url{\1}/' "${ATS_BASE}.tex"
+sed -i -E 's/\\href\{([^}]+)\}\{github\}/GitHub: \\url{\1}/' "${ATS_BASE}.tex"
+sed -i -E 's/\\href\{([^}]+)\}\{linkedin\}/LinkedIn: \\url{\1}/' "${ATS_BASE}.tex"
+sed -i '/^\\large /s: / : | :g' "${ATS_BASE}.tex"
+# Fallbacks for links whose label doesn't match the ones above.
+sed -i -E 's/\\href\{mailto:([^}]+)\}\{[^}]+\}/\1/g' "${ATS_BASE}.tex"
 sed -i -E 's/\\href\{(https?:\/\/[^}]+)\}\{[^}]+\}/\\url{\1}/g' "${ATS_BASE}.tex"
 # 2. Name without ", Ph.D." suffix so name parsing stays clean.
 sed -i 's/{Jake Brawer, Ph\.D\./{Jake Brawer/g' "${ATS_BASE}.tex"
