@@ -59,7 +59,7 @@ On Arch Linux, =ulem.sty= is provided by =texlive-plaingeneric=.
 The CV uses BibLaTeX and a bibliography file referenced from =brawer_cv.org=:
 
 #+begin_src org
-#+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
+#+LATEX_HEADER: \addbibresource{/home/jake/.config/spacemacs/references.bib}
 #+end_src
 
 The active publication section currently prints only entries tagged with:

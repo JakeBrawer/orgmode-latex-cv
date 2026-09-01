@@ -3,7 +3,7 @@
 
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
 #+LaTeX_HEADER: \usepackage[maxbibnames=99, backend=biber, style=authoryear, refsection=section, sorting=ydnt]{biblatex}
-#+LATEX_HEADER: \addbibresource{/home/jake/Dropbox/Literature/references.bib}
+#+LATEX_HEADER: \addbibresource{/home/jake/.config/spacemacs/references.bib}
 #  Enforces last name, first name ordering
 #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
 
@@ -22,17 +22,17 @@
 
 * RESEARCH OVERVIEW
 ** Summary
-I build *interactive AI systems* that combine perception, reasoning, memory, and learning to support robust human-centered interaction. My work spans *robotics*, *conversational AI*, and *production ML systems*, with emphasis on realtime decision-making, structured knowledge, personalization, and deployable architectures.
+I build *interactive AI systems* that combine perception, reasoning, memory, and learning to support robust human-centered interaction. My work spans *collaborative robotics* and *conversational AI*, with emphasis on realtime decision-making, structured knowledge, personalization, and deployable architectures.
 
 * PROFESSIONAL EXPERIENCE
 ** *Founding Engineer*
-   /Stealth startup (voice AI / digital health)/ \hfill Nov 2025--Current\\
+   /IM (voice AI / digital health)/ \hfill Nov 2025--Current\\
    Sole architect and founding engineer for an early-stage phone-based conversational AI platform for older adults.\\
    Built the end-to-end system across telephony, realtime speech, LLM orchestration, long-term memory, FastAPI services, PostgreSQL, and AWS infrastructure.\\
    Implemented platform safeguards for reliability and HIPAA-oriented handling of sensitive user data.
    # Built an end-to-end realtime system for adaptive dialogue, long-term memory, backend services, and cloud deployment.\\
 ** *Postdoc*
-   /University of Colorado, Boulder,/ \hfill 2023--2025\\
+   /University of Colorado, Boulder,/ \hfill Aug 2023--Nov 2025\\
    Advisors: Alessandro Roncone and Bradley Hayes\\
    Lead research on human–robot teaming, assistive robotics, and AI decision support.\\
    Develop models for inferring human proficiency, trust, and intent from gaze and behavior in collaborative environments.\\
@@ -43,10 +43,10 @@ I build *interactive AI systems* that combine perception, reasoning, memory, and
 
 * EDUCATION
 ** Yale
-   *Ph.D. in Computer Science* \hfill 2016--2023\\
+   *Ph.D. in Computer Science* \hfill Aug 2016--March 2023\\
    Advisor: Brian Scassellati
 ** Vassar
-   *B.A. in Cognitive Science; Computer Science minor* \hfill 2012--2016
+   *B.A. in Cognitive Science; Computer Science minor* \hfill Aug 2012--May 2016
 \vspace{1em}
 # * Research Experience
 # ** 2016-2023

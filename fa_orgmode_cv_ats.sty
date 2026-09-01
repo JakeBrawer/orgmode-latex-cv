@@ -7,6 +7,13 @@
 
 \ProvidesPackage{fa_orgmode_cv_ats}
 
+% Reliable text extraction: vector Latin Modern fonts plus explicit
+% glyph-to-Unicode mappings so ligatures and accents copy out as the
+% letters they represent.
+\usepackage{lmodern}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \usepackage{url}
 \usepackage{parskip}
 \usepackage{titlesec}
@@ -17,6 +24,18 @@
 
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+% BibLaTeX inserts en-dashes for page/date ranges and curly quotes
+% around titles; force ASCII so extracted text stays plain. This must
+% run after biblatex's own begin-document setup, hence begindocument/end.
+\AddToHook{begindocument/end}{%
+  \ifdefined\bibrangedash\renewcommand*{\bibrangedash}{-}\fi
+  \ifdefined\bibdatedash\renewcommand*{\bibdatedash}{-}\fi
+  \ifdefined\mkbibquote\renewcommand*{\mkbibquote}[1]{"#1"}\fi
+  % Bibliography entries use biblatex's internal variant, which ignores
+  % the \mkbibquote redefinition above.
+  \ifdefined\blx@imc@mkbibquote\protected\long\def\blx@imc@mkbibquote#1{"#1"}\fi
+}
 
 \pagestyle{empty}
 \setlist{nosep,leftmargin=*}
